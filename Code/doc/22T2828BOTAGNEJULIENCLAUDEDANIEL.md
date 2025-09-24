@@ -1,9 +1,14 @@
 # Suivi individuel - Botagne Julien Claude Daniel (22T2828)
 
-## Séance 1
-- Création du repository
-- Organisation des dossiers
+### 1. Somme de matrices
+- Date : 24/09/2025
+- Description : J'ai terminé l'addition de deux matrices et testé avec plusieurs tailles.
+- Difficultés rencontrées : Gestion des dimensions des matrices.
+- Solutions apportées : Vérification des dimensions avant l'addition.
 
-## Séance 2
-- Implémentation du Code 1 : somme de matrices
-- Implémentation du Code 2 : produit de matrices
+### 2. Produit de matrices
+- Date : 24/09/2025
+- Description : Produit de deux matrices terminé et testé.
+- Difficultés rencontrées : Boucles imbriquées et indices.
+- Solutions apportées : Correction des indices dans la boucle.
+  
