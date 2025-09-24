@@ -9,8 +9,9 @@ int produitAddition(int a, int b) {
 }
 
 int main() {
-    int a = 3;
-    int b = 4;
+    int a,b;
+printf("entrez deux nombres :\n");
+    scanf("%d %d",&a,&b);
 
     int result = produitAddition(a, b);
 
