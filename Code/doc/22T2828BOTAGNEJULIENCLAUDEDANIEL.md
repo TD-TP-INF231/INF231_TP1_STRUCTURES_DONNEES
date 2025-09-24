@@ -47,7 +47,7 @@
 **Problèmes rencontrés :**  
 - Gestion du tri et des tableaux de taille paire ou impaire.
 
-### 9:multiplication matruce et vecteur
+### 9:multiplication d'une matrice et vecteur
 ## Objectif
 Calculer le vecteur résultat d'une matrice multipliée par un vecteur.
 
