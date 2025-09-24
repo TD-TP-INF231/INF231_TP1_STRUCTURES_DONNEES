@@ -22,3 +22,27 @@
 - Description : J'ai implémenté le produit vectoriel entre deux vecteurs 3D.  
 - Difficultés rencontrées : Gestion des signes et des indices pour calculer correctement chaque composante.  
 - Solutions apportées : Vérification de la formule du produit vectoriel et test avec différents vecteurs pour confirmer les résultats.
+###  5 : Tester si un tableau est trié
+**Objectif :** Vérifier si les éléments d’un tableau sont ordonnés dans l’ordre croissant.  
+
+**Méthode :**  
+- Parcourir le tableau du premier au dernier élément.  
+- Comparer chaque élément avec le suivant.  
+- Si un élément est supérieur à celui qui le suit, le tableau n’est pas trié.  
+
+**Problèmes rencontrés :** Aucun problème majeur.  
+
+**Remarques :**  
+- Permet de renforcer la maîtrise des boucles et conditions en C.
+
+
+###  6 : Trouver la médiane d’un tableau
+**Objectif :** Déterminer la valeur médiane dans un tableau d’éléments.  
+
+**Méthode :**  
+- Trier le tableau si nécessaire.  
+- Si le nombre d’éléments est impair, la médiane est l’élément du milieu.  
+- Si le nombre d’éléments est pair, la médiane est la moyenne des deux éléments du milieu.
+
+**Problèmes rencontrés :**  
+- Gestion du tri et des tableaux de taille paire ou impaire.
