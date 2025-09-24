@@ -46,3 +46,13 @@
 
 **Problèmes rencontrés :**  
 - Gestion du tri et des tableaux de taille paire ou impaire.
+# Produit matrice-vecteur
+### 9:multiplication matruce et vecteur
+## Objectif
+Calculer le vecteur résultat d'une matrice multipliée par un vecteur.
+
+## Méthode
+Multiplier chaque ligne de la matrice par le vecteur et sommer les produits pour obtenir le vecteur résultat.
+
+## Problème rencontré
+Vérifier que les dimensions de la matrice et du vecteur sont compatibles.
