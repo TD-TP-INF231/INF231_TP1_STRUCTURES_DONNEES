@@ -2,7 +2,6 @@ Date : 22 septembre 2025
 
 Rapport sur les exercices de TP : Structures de Données II (INF231_EC2)
 Responsable : PR Melatagia
-Membres du groupe :
 Nom : MUSA SAIDU         Matricule : 24G2172
 
 Introduction
