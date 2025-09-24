@@ -1,0 +1,62 @@
+#include <stdio.h>
+
+int main() {
+    int i, j, k;
+    int rowsA, colsA, rowsB, colsB;
+
+    // Saisie des dimensions
+    printf("Entrez le nombre de lignes de la matrice A : ");
+    scanf("%d", &rowsA);
+    printf("Entrez le nombre de colonnes de la matrice A : ");
+    scanf("%d", &colsA);
+
+    printf("Entrez le nombre de lignes de la matrice B : ");
+    scanf("%d", &rowsB);
+    printf("Entrez le nombre de colonnes de la matrice B : ");
+    scanf("%d", &colsB);
+
+    if (colsA != rowsB) {
+        printf("Multiplication impossible : colonnes de A != lignes de B\n");
+        return 1;
+    }
+
+    int A[rowsA][colsA];
+    int B[rowsB][colsB];
+    int C[rowsA][colsB];
+
+    // Initialisation de C à 0
+    for(i = 0; i < rowsA; i++)
+        for(j = 0; j < colsB; j++)
+            C[i][j] = 0;
+
+    // Saisie de la matrice A
+    printf("Entrez les éléments de la matrice A :\n");
+    for(i = 0; i < rowsA; i++)
+        for(j = 0; j < colsA; j++)
+            scanf("%d", &A[i][j]);
+
+    // Saisie de la matrice B
+    printf("Entrez les éléments de la matrice B :\n");
+    for(i = 0; i < rowsB; i++)
+        for(j = 0; j < colsB; j++)
+            scanf("%d", &B[i][j]);
+
+    // Calcul du produit
+    for(i = 0; i < rowsA; i++) {
+        for(j = 0; j < colsB; j++) {
+            for(k = 0; k < colsA; k++) {
+                C[i][j] += A[i][k] * B[k][j];
+            }
+        }
+    }
+
+    // Affichage du résultat
+    printf("Le produit des matrices est :\n");
+    for(i = 0; i < rowsA; i++) {
+        for(j = 0; j < colsB; j++)
+            printf("%d ", C[i][j]);
+        printf("\n");
+    }
+
+    return 0;
+}
