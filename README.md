@@ -1,6 +1,6 @@
 # INF231_TP1_STRUCTURES_DONNEES
 # Repository TP INF231_EC2 – Structures de Données II
-#Responsable Du TP:Pr Melantagia Paulin 
+##**Responsable Du TP:Pr Melantagia Paulin**
 ## Description
 Ce repository contient tous les travaux pratiques réalisés en C pour le cours **Structure de Données II**.  
 Il a été réalisé en **groupe**, avec un suivi individuel de chaque membre dans le dossier `/Doc`.
