@@ -1,0 +1,31 @@
+#include <stdio.h>
+#define N 100
+
+int rechercheSequentielle(int tab[], int n, int x) {
+    for (int i = 0; i < n; i++)
+        if (tab[i] == x)
+            return i; // Retourne l'indice où x est trouvé
+    return -1; // Retourne -1 si x n'est pas dans le tableau
+}
+
+int main() {
+    int n, x;
+    printf("Entrez la taille du tableau : ");
+    scanf("%d", &n);
+    
+    int tab[N];
+    printf("Entrez les elements du tableau :\n");
+    for (int i = 0; i < n; i++)
+        scanf("%d", &tab[i]);
+    
+    printf("Entrez l'element a rechercher : ");
+    scanf("%d", &x);
+    
+    int result = rechercheSequentielle(tab, n, x);
+    if (result != -1)
+        printf("Element %d trouve a l'indice %d\n", x, result);
+    else
+        printf("Element %d non trouve\n", x);
+    
+    return 0;
+}
