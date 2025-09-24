@@ -10,9 +10,11 @@ int rechercheSequentielle(int tab[], int n, int x) {
 }
 
 int main() {
-    int tab[] = {1, 2, 3, 4, 5};
-    int n = sizeof(tab) / sizeof(tab[0]);
-    int x = 3;
+    int n,x;
+printf ("entrez la taille du tableau");
+scanf("%d",&n);
+printf("entrez l'élément rechercher:);
+scanf("%d",&x);
 
     int result = rechercheSequentielle(tab, n, x);
 
