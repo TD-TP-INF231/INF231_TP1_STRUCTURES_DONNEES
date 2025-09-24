@@ -1,49 +1,35 @@
-# INF231_TP1_STRUCTURES_DONNEES
-# Repository TP INF231_EC2 – Structures de Données II
-##**Responsable Du TP:Pr Melantagia Paulin**
-## Description
-Ce repository contient tous les travaux pratiques réalisés en C pour le cours **Structure de Données II**.  
-Il a été réalisé en **groupe**, avec un suivi individuel de chaque membre dans le dossier `/Doc`.
+# Travaux Pratiques INF231 – Structures de Données (EC2)
 
-Objectifs :  
-- Centraliser tous les exercices du TP.  
-- Permettre le suivi individuel dans `/Doc`.  
-- Documenter le fonctionnement de chaque code et les méthodes utilisées.  
+**Responsable du TP/TD : Pr Melantagia Paulin**
 
+## Objectif général
+Ce TP avait pour objectif de pratiquer différentes opérations sur les structures de données en C, notamment les tableaux et les matrices, et de développer une meilleure compréhension des méthodes pour manipuler et traiter les données. Il visait aussi à renforcer le travail en groupe et la coordination entre les membres pour réaliser les exercices.
 
+## Exercices réalisés et approche
+1. **Somme de matrices** : Addition de deux matrices de mêmes dimensions, pour se familiariser avec les boucles imbriquées et la manipulation des indices.  
+2. **Produit de matrices** : Multiplication de deux matrices avec vérification des dimensions, en calculant chaque élément par la somme des produits ligne-colonne correspondants.  
+3. **Recherche séquentielle dans un tableau** : Parcours d’un tableau pour retrouver un élément donné, afin de pratiquer la gestion des conditions et des boucles.  
+4. **Multiplication a × b avec +1 uniquement** : Calcul du produit de deux nombres positifs sans utiliser l’opérateur `*`, en utilisant l’addition répétée.  
+5. **Tester si un tableau est trié** : Vérification si les éléments d’un tableau sont dans l’ordre croissant, en comparant chaque élément à son suivant.  
+6. **Calcul de la médiane dans un tableau** : Détermination de la valeur médiane après tri du tableau, avec gestion des indices pour les cas pairs et impairs.  
+7. **Inverser un tableau** : Permutation systématique des éléments pour inverser l’ordre du tableau.  
+8. **Produit vectoriel** : Calcul du produit vectoriel entre deux vecteurs à trois composantes, en appliquant les formules mathématiques correspondantes.  
+9. **Produit vecteur × matrice** : Multiplication d’un vecteur par une matrice en multipliant chaque ligne par le vecteur et en additionnant les produits pour obtenir le vecteur résultat.
 
-## Exercices réalisés et description
+## Méthode générale
+- Les exercices ont été réalisés en groupe, avec une participation variable : certains membres ont été très actifs tandis que d’autres ont contribué moins.  
+- Nous avons essayé de répartir les tâches pour avancer le mieux possible et atteindre un résultat collectif satisfaisant.  
+- Les programmes ont été écrits en C avec attention sur la lisibilité et la structuration du code.  
+- Les tests ont été effectués sur différents cas pour vérifier le fonctionnement des programmes et identifier les erreurs possibles.  
+- Les membres les plus actifs ont documenté les étapes et les problèmes rencontrés, permettant au groupe de finaliser les exercices malgré la participation inégale.
 
-1. **Somme de matrices** : Addition de deux matrices de mêmes dimensions et affichage du résultat.  
-2. **Produit de matrices** : Multiplication de deux matrices, vérification des dimensions compatibles et affichage du produit.  
-3. **Recherche séquentielle dans un tableau** : Recherche d’un élément dans un tableau en parcourant chaque élément.  
-4. **Multiplication `a × b` avec `+1` uniquement** : Calcul du produit de deux nombres positifs sans utiliser l’opérateur `*`.  
-5. **Tester si un tableau est trié** : Vérifie si les éléments d’un tableau sont dans l’ordre croissant.  
-6. **Calcul du médian dans un tableau** : Détermination de la médiane d’un tableau d’entiers.  
-7. **Inverser un tableau** : Permute les éléments du tableau pour inverser leur ordre.  
-8. **Produit vectoriel** : Calcul du produit vectoriel de deux vecteurs à trois composantes.  
-9. **Produit vecteur × matrices** : Multiplie un vecteur par une matrice et affiche le résultat.
+## Problèmes rencontrés
+- Vérification des dimensions pour les opérations matricielles et vecteur-matrice.  
+- Gestion des indices et des boucles pour éviter les erreurs d’accès aux éléments des tableaux et matrices.  
+- Coordination entre les membres pour s’assurer que le code reste compréhensible et fonctionnel.  
+- Organisation de la documentation et du suivi, afin que les étapes réalisées par chacun soient consignées dans le dossier `/Doc/`.
 
-
-
-## Structure du repository
-- `Code/` : Contient tous les fichiers sources en C pour chaque exercice.  
-- `Doc/` : Contient le suivi individuel de chaque membre, avec les étapes de réalisation, problèmes rencontrés et solutions apportées.  
-- `README.md` : Ce fichier, décrivant le projet et les exercices réalisés.
-
-
-## Suivi et remarques
-- Chaque membre documente son travail dans **/Doc/**.  
-- Les problèmes rencontrés et les solutions sont également consignés dans ce dossier.
-
-
-
-## Contribution
-- Les membres ayant **Write access** peuvent ajouter ou modifier les fichiers dans le repository.  
-- Pour toute modification majeure, créer une **branche** et faire une **pull request**.  
-- Chaque commit doit être clair et indiquer ce qui a été ajouté ou modifié.
-
-
-
-## Contact
-Pour toute question ou remarque : **julienclaudedanielbotagne@gmail.com**
+## Remarques
+- Ce document reflète le travail collectif du groupe et décrit les démarches suivies, les difficultés rencontrées et les efforts fournis.  
+- Il ne prétend pas évaluer la validité absolue des résultats, mais présente de manière détaillée comment chaque exercice a été abordé et traité.  
+- Malgré une participation inégale, nous avons fait de notre mieux pour mener à bien le TP et obtenir un résultat final.
