@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Structure pour un élément de la liste
+typedef struct Element {
+    int valeur;
+    struct Element* suivant;
+} Element;
+
+// Fonction pour créer un nouvel élément
+Element* creerElement(int valeur) {
+    Element* nouvelElement = (Element*)malloc(sizeof(Element));
+    nouvelElement->valeur = valeur;
+    nouvelElement->suivant = NULL;
+    return nouvelElement;
+}
+
+// Fonction pour insérer un élément dans une liste triée
+void insererDansListeTriee(Element** tete, int valeur) {
+    Element* nouvelElement = creerElement(valeur);
+
+    if (*tete == NULL || (*tete)->valeur >= valeur) {
+        nouvelElement->suivant = *tete;
+        *tete = nouvelElement;
+    } else {
+        Element* courant = *tete;
+        while (courant->suivant != NULL && courant->suivant->valeur < valeur) {
+            courant = courant->suivant;
+        }
+        nouvelElement->suivant = courant->suivant;
+        courant->suivant = nouvelElement;
+    }
+}
+
+// Fonction pour afficher la liste
+void afficherListe(Element* tete) {
+    while (tete != NULL) {
+        printf("%d -> ", tete->valeur);
+        tete = tete->suivant;
+    }
+    printf("NULL\n");
+}
+
+int main() {
+    Element* tete = NULL;
+
+    // Insérer des éléments dans la liste triée
+    insererDansListeTriee(&tete, 5);
+    insererDansListeTriee(&tete, 3);
+    insererDansListeTriee(&tete, 8);
+    insererDansListeTriee(&tete, 2);
+    insererDansListeTriee(&tete, 6);
+    printf("Liste triée : ");
+    afficherListe(tete);
+    return 0;
+}
